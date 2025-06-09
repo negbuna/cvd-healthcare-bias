@@ -15,7 +15,7 @@ I used the [Framingham Heart Study Dataset](https://www.kaggle.com/datasets/aash
 ---
 
 ## Model
-I trained a **Logistic Regression** model to predict 10-year CHD risk.
+I used scikit-learn to make a Logistic Regression model to predict 10-year CHD risk.
 
 ```python
 lr_model = LogisticRegression(max_iter=2000)
@@ -33,17 +33,16 @@ I compared True Positive Rate (TPR) and Accuracy betIen males and females to ide
 
 TPR and Accuracy by Gender
 
-<img src="images/tpr_acc_plot.png" width="500">
+![True Positive Rate and Accuracy](images/tpr_acc.png)
 
 
 Equal Opportunity & Demographic Parity Differences
-	•	Equal Opportunity Difference (EOD): 0.078
+Equal Opportunity Difference (EOD): **0.078**
 (Difference in TPR betIen male and female)
-	•	Demographic Parity Difference (DPD): -0.09
+Demographic Parity Difference (DPD): **-0.09**
 (Difference in positive prediction rates)
 
-<img src="images/eod_dpd_plot.png" width="500">
-
+![Equal Opportunity & Demographic Parity Differences](images/eod_dpd.png)
 
 
 ⸻
@@ -54,11 +53,11 @@ These show how predictions broke down into true/false positives/negatives by gen
 
 Male
 
-<img src="images/conf_matrix_male.png" width="350">
+![Confusion Matrix - Male](images/conf_matrix_male.png)
 
 Female
 
-<img src="images/conf_matrix_female.png" width="350">
+![Confusion Matrix - Female](images/conf_matrix_male.png)
 
 
 ⸻
