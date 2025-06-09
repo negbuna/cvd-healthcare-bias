@@ -1,19 +1,11 @@
-Perfect — you’re in a great spot! Let’s structure your README.md to clearly tell the story of your project with visuals and fairness insights. I’ll provide a clean, complete template below. You just need to:
-	1.	Replace images/<filename> with your actual image filenames.
-	2.	Make sure those images are saved in an images/ folder in your GitHub repo.
-
-⸻
-
-📝 README.md Template for Your Project
-
-# 🫀 Predicting Cardiovascular Risk with Fairness in Mind  
+# Predicting Cardiovascular Risk with Fairness in Mind  
 **Nathan Egbuna — Summer 2025 Research Project**
 
 This notebook investigates how model performance and fairness vary across gender in predicting 10-year heart disease risk using the Framingham Heart Study dataset.
 
 ---
 
-## 📦 Dataset  
+## Dataset  
 I used the [Framingham Heart Study Dataset](https://www.kaggle.com/datasets/aasheesh200/framingham-heart-study-dataset), which contains anonymized health data from 4,240 individuals, including:
 
 - Demographics (e.g., age, sex, education)
@@ -22,11 +14,11 @@ I used the [Framingham Heart Study Dataset](https://www.kaggle.com/datasets/aash
 
 ---
 
-## 🧠 Model
+## Model
 I trained a **Logistic Regression** model to predict 10-year CHD risk.
 
 ```python
-LogisticRegression(max_iter=2000)
+lr_model = LogisticRegression(max_iter=2000)
 ```
 
 Overall model accuracy: 86.2%
