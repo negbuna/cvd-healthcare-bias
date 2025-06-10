@@ -71,3 +71,9 @@ Female
 git clone https://github.com/yourusername/your-repo-name.git
 ```
 2. Open the notebook in Google Colab and install dependencies, download the dataset, then run the model.
+
+## References
+
+- Buolamwini, J., & Gebru, T. (2018). *Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification*. Proceedings of the 1st Conference on Fairness, Accountability and Transparency. [Link](https://proceedings.mlr.press/v81/buolamwini18a.html)
+
+- Dunn, C., Correia, D., & Rathke, L. (2022). *Assessing Underrepresentation in Machine Learning Datasets for Cardiovascular Disease (CVD) Research*. Worcester Polytechnic Institute. [Link](https://digital.wpi.edu/concern/student_works/1v53k137g)
