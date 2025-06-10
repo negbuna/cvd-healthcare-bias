@@ -25,8 +25,6 @@ Overall model accuracy: 86.2%
 
 I then evaluated its fairness and error rates across gender groups.
 
-⸻
-
 ### Fairness Metrics by Gender
 I compared True Positive Rate (TPR) and Accuracy between males and females to identify disparities in the model’s ability to correctly identify at-risk patients.
 
@@ -41,18 +39,16 @@ Demographic Parity Difference (DPD): **-0.09**
 
 ![Equal Opportunity & Demographic Parity Differences](images/eod_dpd.png)
 
-⸻
-
 ### Confusion Matrices by Gender
 These show how predictions broke down into true/false positives/negatives by gender.
 
 Male
+
 ![Confusion Matrix - Male](images/conf_matrix_male.png)
 
 Female
-![Confusion Matrix - Female](images/conf_matrix_male.png)
 
-⸻
+![Confusion Matrix - Female](images/conf_matrix_male.png)
 
 ### Key Findings
 * Disparity in TPR: The model is better at detecting risk in men (17%) than in women (9.5%).
@@ -60,15 +56,13 @@ Female
 * Accuracy Gap: The model is more accurate for women (90%) than men (81%).
 * This suggests possible bias due to representation or feature interaction, especially since education level and access to care (which correlate with SES and potentially race) may affect who gets diagnosed and included in the dataset.
 
-⸻
-
 ### Future Work
 * Apply rebalancing techniques like SMOTE or reIighting.
 * Consider intersectional fairness (e.g., by age + gender or education + gender).
 * Train alternative models and compare fairness trade-offs.
 * Explore fairness-aware loss functions or post-processing methods.
 
-⸻
+---
 
 ## How to Run
 
