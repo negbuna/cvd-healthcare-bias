@@ -1,6 +1,4 @@
 # Predicting Cardiovascular Risk with Fairness in Mind  
-**Nathan Egbuna — Summer 2025 Research Project**
-
 This notebook investigates how model performance and fairness vary across gender in predicting 10-year heart disease risk using the Framingham Heart Study dataset.
 
 ---
